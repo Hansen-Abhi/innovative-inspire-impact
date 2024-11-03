@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Technology Startups</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            display: flex; /* Create a flex container */
+            height: 100vh; /* Full height of the viewport */
+            margin: 0; /* Remove default margin */
+        }
+        .content {
+            flex: 1; /* Left side will take up the remaining space */
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .image-container {
+            width: 40%; /* Right side takes up 40% of the width */
+            background-image: url('https://i.postimg.cc/655JzK27/photo-collage-png.png');
+            background-size: cover; /* Cover the entire area */
+            background-position: center; /* Center the image */
+            height: 50vh; /* Height of the image container */
+        }
+        .back-button {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background-color: #0d6efd;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        h1 {
+            color: #4bee8f;
+        }
+        .companies {
+            display: flex;
+            flex-direction: column;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 20px 0; /* Increased margin for better spacing */
+            display: flex;
+            align-items: center; /* Align items horizontally */
+        }
+        a {
+            color: #e7f70b;
+            text-decoration: none;
+            font-size: 1.5em; /* Font size for company names */
+            margin-right: 20px; /* Space between name and image */
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <a href="startups.html"class="back-button">Back</a>
+        <h1>Technology Startups</h1>
+
+        <div class="companies">
+            <ul>
+                <li>
+                    <a href="stripe.html">Stripe</a>
+                </li>
+                <li>
+                    <a href="spacex.html">SpaceX</a>
+                </li>
+                <li>
+                    <a href="palantir.html">Palantir Technologies</a>
+                </li>
+                <li>
+                    <a href="airbnb.html">Airbnb</a>
+                </li>
+                <li>
+                    <a href="snowflake.html">Snowflake</a>
+                </li>
+                <li>
+                    <a href="robinhood.html">Robinhood</a>
+                </li>
+                <li>
+                    <a href="coursera.html">Coursera</a>
+                </li>
+                <li>
+                    <a href="uipath.html">UiPath</a>
+                </li>
+                <li>
+                    <a href="github.html">GitHub</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="image-container"></div> <!-- Right side for the image -->
+</body>
+</html>
